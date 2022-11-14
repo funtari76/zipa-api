@@ -1,5 +1,5 @@
-h1 align="center">
-  Ziper-Api P5
+<h1 align="center">
+    <u>Ziper-Api P5</u>
 </h1>
 
 <hr>
@@ -56,11 +56,26 @@ graph TD;
     User-->SignUp-->Login;
     E-->D;
 :::
+
+:::
+mindmap
+Root
+    A
+      B
+      C
+:::
+
  <hr>
  <hr>
 
+mindmap
+    Root
+        A
+            B
+            C
  <b>
- <>
+ <hr>
+ <hr>
  ## User Stories:
 <hr>
 
@@ -117,4 +132,3 @@ graph TD;
 
 ## Frameworks, Libraries & Programs Used
 <hr>
- 
