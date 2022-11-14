@@ -35,8 +35,32 @@ h1 align="center">
 ## User Experience:
 <br>
 <hr>
+<b>
 
- 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+ <hr>
+ <hr>
+
+::: mermaid
+graph TD;
+    A-->D;E-->D;
+    D-->C;
+    B-->D;
+    User-->SignUp-->Login;
+    E-->D;
+:::
+ <hr>
+ <hr>
+
+ <b>
+ <>
  ## User Stories:
 <hr>
 
