@@ -56,7 +56,32 @@ graph TD;
     User-->SignUp-->Login;
     E-->D;
 :::
+    
+-------
+-------
+    
+```mermaid
+graph TD
+A[Start] --> B[Process 1]
+B --> C[Decision]
+C -->|Yes| D[Process 2]
+C -->|No| E[End]
+subgraph Subgraph 1
+D --> F[Process 3]
+F --> G[Process 4]
+end
+subgraph Subgraph 2
+sequenceDiagram
+A->>B: Request
+B->>C: Forward request
+C->>D: Process request
+D->>E: Send response
+E->>B: Forward response
+B->>A: Deliver response
+end
+image[image.png, 100px]
 
+```
 :::
 mindmap
 Root
